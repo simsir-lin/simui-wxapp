@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="sim-row">
+    <text>单行信息</text>
+  </view>
+  <view class="sim-row">
+    <text>单行信息 + 图标</text>
+    <text class="fa fa-angle-right"></text>
+  </view>
+  <view class="sim-row">
+    <text>单行信息 + 文字</text>
+    <text class="text-gray">提示信息</text>
+  </view>
+  <view class="sim-row">
+    <text>单行信息 + 开关</text>
+    <switch type="switch" />
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<view class="container">
+  <view style="height:30px"></view>
+  <view><button class="sim-btn" bindtap="toggleModal">弹出模态框</button></view>  
+</view>
+
+<view class="sim-modal {{showModal ? 'sim-modal-show':''}}">
+  <view class="sim-modal-mask" bindtap="toggleModal"></view>
+  <view class="sim-modal-container">
+    内容
+  </view>
+</view>

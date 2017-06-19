@@ -1,0 +1,52 @@
+.sim-list,.sim-list-media {
+  position: relative;
+  margin: 20rpx 0;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.sim-list .sim-list-item {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20rpx 24rpx;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  justify-content: space-between;
+}
+.sim-list .sim-list-item:first-child {
+  border-top: none;
+}
+.sim-list .sim-list-item>text,.sim-list-item>view {
+  color: #333;
+}
+
+.sim-list-media .sim-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sim-list-media .sim-list-item:nth-child(n+2) {
+  border-top: 1px solid #f7f7f7;
+}
+.sim-list-media .sim-list-item>view:first-child {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sim-list-media .sim-list-item>view:first-child image {
+  height: 90rpx;
+  width: 90rpx;
+  padding: 15rpx 0 15rpx 20rpx;
+}
+.sim-list-media .sim-list-item>view:first-child view {
+  padding: 15rpx 0 15rpx 20rpx;
+}
+.sim-list-media .sim-list-item>view:first-child view>text,.sim-list-media .sim-list-item>view:first-child view>view {
+  display: block;
+}
+.sim-list-media .sim-list-item>view:nth-child(2) {
+  padding: 15rpx 20rpx;
+  align-self: center;
+}

@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="sim-tabs">
+    <view class="">标签一</view>
+    <view class="sim-tabs-active">标签二</view>
+    <view class="">标签三</view>
+  </view>
+  <view style="height:10px"></view>
+  <view class="sim-tabs">
+    <view class="">标签一</view>
+    <view class="">标签二</view>
+    <view class="">标签三</view>
+    <view class="sim-tabs-active">标签四</view>
+    <view class="">标签五</view>
+  </view>
+</view>

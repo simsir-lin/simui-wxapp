@@ -1,0 +1,60 @@
+.sim-form {
+  position: relative;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.sim-form-group,.sim-form-textarea,.sim-form-switch {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20rpx 24rpx;
+  background-color: #fff;
+  border-top: 1px solid #eee;  
+}
+.sim-form-group:first-child{
+  border-top: none;
+}
+.sim-form-group>label:first-child {
+  background-color: #fff;
+  float: left;
+  width: 160rpx;
+}
+.sim-form-group picker view{
+  color: #666;
+}
+.sim-form-option {
+  padding: 20rpx 24rpx;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #eee;
+}
+.sim-form-option>label:first-child {
+  display: block;
+  width: 100vw;
+}
+.sim-form-option>label:not(:first-child),.sim-form-option checkbox-group>label,.sim-form-option radio-group>label {
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+}
+.sim-form-option checkbox-group,.sim-form-option radio-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sim-form-switch {
+  justify-content: space-between;
+}
+
+.sim-form-textarea>label:first-child {
+  align-self: flex-start;
+  width: 200rpx;
+  position: relative;
+}
+.sim-form-textarea textarea {
+  margin: 0;
+}

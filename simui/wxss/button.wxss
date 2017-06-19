@@ -1,0 +1,25 @@
+.sim-btn {
+  margin: 20rpx;
+}
+
+.sim-btn-inline {
+  display: inline-block;
+  line-height: 70rpx;
+}
+
+.sim-btn-success {
+  background-color: #25BC1E;
+  color: #fff;
+}
+.sim-btn-error {
+  background-color: #F36063;
+  color: #fff;
+}
+.sim-btn-warning {
+  background-color: #F0AD4E;
+  color: #fff;
+}
+.sim-btn-info {
+  background-color: #33AEFD;
+  color: #fff;
+}

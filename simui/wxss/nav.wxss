@@ -1,0 +1,122 @@
+.sim-nav {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #eee;
+}
+
+.sim-nav .sim-nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;  
+  border-top: 1px solid #eee;  
+  text-align: center;
+  box-sizing: border-box;
+}
+.sim-nav .sim-nav-item>.fa,.sim-nav .sim-nav-item>image {
+  border-radius: 50%;
+}
+/*.sim-nav .sim-nav-item>image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-bottom: 15rpx;
+}
+.sim-nav .sim-nav-item>.fa {
+  font-size: 50rpx;
+  padding: 25rpx;
+  margin-bottom: 15rpx;
+}*/
+
+.sim-nav-col-2 .sim-nav-item {
+  width: 50vw;
+  height: 50vw;
+}
+.sim-nav-col-2 .sim-nav-item:nth-child(2n) {
+  border-right: none;
+}
+.sim-nav-col-2 .sim-nav-item:nth-child(n-3) {
+  border-top: none;
+}
+.sim-nav-col-2 .sim-nav-item>image {
+  height: 140rpx;
+  width: 140rpx;
+  margin-bottom: 20rpx;
+}
+.sim-nav-col-2 .sim-nav-item>.fa {
+  font-size: 70rpx;
+  padding: 35rpx;
+  margin-bottom: 20rpx;
+}
+
+.sim-nav-col-3 .sim-nav-item {
+  width: 33.3vw;
+  height: 33.3vw;
+}
+.sim-nav-col-3 .sim-nav-item:nth-child(3n) {
+  border-right: none;
+}
+.sim-nav-col-3 .sim-nav-item:nth-child(n-4) {
+  border-top: none;
+}
+.sim-nav-col-3 .sim-nav-item>image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-bottom: 15rpx;
+}
+.sim-nav-col-3 .sim-nav-item>.fa {
+  font-size: 50rpx;
+  padding: 25rpx;
+  margin-bottom: 15rpx;
+}
+
+.sim-nav-col-4 .sim-nav-item {
+  width: 25vw;
+  height: 25vw;
+}
+.sim-nav-col-4 .sim-nav-item:nth-child(4n) {
+  border-right: none;
+}
+.sim-nav-col-4 .sim-nav-item:nth-child(n-5) {
+  border-top: none;
+}
+.sim-nav-col-4 .sim-nav-item>text {
+  font-size: 13px;
+}
+.sim-nav-col-4 .sim-nav-item>image {
+  height: 86rpx;
+  width: 86rpx;
+  margin-bottom: 8rpx;
+}
+.sim-nav-col-4 .sim-nav-item>.fa {
+  font-size: 36rpx;
+  padding: 25rpx;
+  margin-bottom: 8rpx;
+}
+
+.sim-nav-col-5 .sim-nav-item {
+  width: 20vw;
+  height: 20vw;
+}
+.sim-nav-col-5 .sim-nav-item:nth-child(5n) {
+  border-right: none;
+}
+.sim-nav-col-5 .sim-nav-item:nth-child(n-6) {
+  border-top: none;
+}
+.sim-nav-col-5 .sim-nav-item>text {
+  font-size: 12px;
+}
+.sim-nav-col-5 .sim-nav-item>image {
+  height: 70rpx;
+  width: 70rpx;
+  margin-bottom: 8rpx;
+}
+.sim-nav-col-5 .sim-nav-item>.fa {
+  font-size: 30rpx;
+  padding: 20rpx;
+  margin-bottom: 8rpx;
+}

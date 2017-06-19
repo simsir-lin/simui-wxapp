@@ -1,0 +1,24 @@
+<import src="../../simui/template/toptip.wxml" />
+<view class="container">
+  <view style="height:50rpx"></view>
+  <view class="sim-form">
+    <view class="sim-form-group">
+      <label>消息内容</label>
+      <input value="{{msg}}" bindinput="handleInput" />
+    </view>
+    <view class="sim-form-group">
+      <label>消息类型</label>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{types}}" range-key="title">
+        <view class="picker">
+          {{types[index].title}} <text class="sim-arrow-bottom"></text>
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view style="height:20rpx"></view>
+  <view>
+    <button class="sim-btn sim-btn-success" bindtap="show">弹出消息</button>
+  </view>
+</view>
+
+<template is="sim-toptip" data="{{ simTopTip }}"></template>

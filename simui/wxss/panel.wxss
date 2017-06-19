@@ -1,0 +1,14 @@
+.sim-panel {
+  padding: 10rpx 0;
+}
+.sim-panel-title {
+  display: block;
+  color: #999;
+  padding: 10rpx 24rpx;
+}
+.sim-panel-content {
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  padding: 20rpx 24rpx;
+  background-color: #fff;
+}

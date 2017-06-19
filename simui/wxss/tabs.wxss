@@ -1,0 +1,18 @@
+.sim-tabs {
+  position: relative;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  padding: 0 10rpx;
+  flex-wrap: nowrap;  
+  justify-content: space-around;
+}
+.sim-tabs>text,.sim-tabs>view {
+  display: inline-block;  
+  padding: 20rpx 10rpx;
+}
+
+.sim-tabs-active {
+  color: #F36063;
+  border-bottom: 2px solid #F36063;
+}

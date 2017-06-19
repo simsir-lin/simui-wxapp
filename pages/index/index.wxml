@@ -1,0 +1,53 @@
+<view class="container">
+  <view class="logo-view">
+    <image src="../../images/logo.png"></image>
+  </view>
+  <view class="sim-row" bindtap="navigateTo" data-url="../label/index">
+    <text>标签</text>
+    <text class="fa fa-angle-right"></text>
+  </view>
+  <view class="sim-row" bindtap="navigateTo" data-url="../badge/index">
+    <text>消息提醒</text>
+    <text class="fa fa-angle-right"></text>
+  </view>
+  <view class="sim-row" bindtap="navigateTo" data-url="../button/index">
+    <text>按钮</text>
+    <text class="fa fa-angle-right"></text>
+  </view>
+  <view class="sim-row" bindtap="navigateTo" data-url="../nav/index">
+    <text>导航</text>
+    <text class="fa fa-angle-right"></text>
+  </view>
+  <view class="sim-row" bindtap="navigateTo" data-url="../icon/index">
+    <text>图标</text>
+    <text class="fa fa-angle-right"></text>
+  </view>
+  <view class="sim-list">
+    <view class="sim-list-item" bindtap="navigateTo" data-url="../row/index">
+      <text>行</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
+    <view class="sim-list-item" bindtap="navigateTo" data-url="../list/index">
+      <text>列表</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-row" bindtap="navigateTo" data-url="../form/index">
+    <text>表单</text>
+    <text class="fa fa-angle-right"></text>
+  </view>
+  <view class="sim-row" bindtap="navigateTo" data-url="../tabs/index">
+    <text>标签页</text>
+    <text class="fa fa-angle-right"></text>
+  </view>  
+  <view class="sim-list">
+    <view class="sim-list-item" bindtap="navigateTo" data-url="../modal/index">
+      <text>模态框</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
+    <view class="sim-list-item" bindtap="navigateTo" data-url="../toptip/index">
+      <text>顶部消息</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>  
+</view>

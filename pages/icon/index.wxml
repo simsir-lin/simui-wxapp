@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="sim-panel">
+    <view class="sim-panel-title">图标</view>
+    <view class="sim-panel-content">
+      <text class="fa fa-hand-o-right"></text> 请前往 <text class="text-info">Fontawesome</text> 官网查看
+    </view>
+  </view>
+</view>

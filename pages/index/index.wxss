@@ -1,0 +1,12 @@
+.logo-view {
+  height: 320rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-view image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}

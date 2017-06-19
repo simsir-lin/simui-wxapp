@@ -1,0 +1,52 @@
+<view class="container">
+  <view style="height:1px"></view>
+  <view class="sim-list">
+    <view class="sim-list-item">
+      <text>列表信息</text>
+    </view>
+    <view class="sim-list-item">
+      <text><text class="fa fa-users"></text>列表信息 + 图标</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
+    <view class="sim-list-item">
+      <text>列表信息 + 文字</text>
+      <text class="text-gray">提示信息</text>
+    </view>
+    <view class="sim-list-item">
+      <text>列表信息 + 开关</text>
+      <switch type="switch" />
+    </view>
+  </view>
+  <view class="sim-list-media">
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/logo.png"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/logo.png"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+  </view>
+  <view class="sim-list-media">
+    <view class="sim-list-item">
+      <view>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+    </view>
+  </view>
+</view>

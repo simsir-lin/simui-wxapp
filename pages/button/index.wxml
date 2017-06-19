@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="sim-panel">
+    <view class="sim-panel-title">块级按钮</view>
+    <view class="sim-panel-content">
+      <button class="sim-btn">默认按钮</button>
+      <button class="sim-btn sim-btn-success">成功按钮</button>
+      <button class="sim-btn sim-btn-error">错误按钮</button>
+      <button class="sim-btn sim-btn-warning">警告按钮</button>
+      <button class="sim-btn sim-btn-info">提示按钮</button>
+    </view>
+  </view>  
+  <view class="sim-panel">
+    <view class="sim-panel-title">行级按钮</view>
+    <view class="sim-panel-content">
+      <button class="sim-btn sim-btn-inline">默认按钮</button>
+      <button class="sim-btn sim-btn-inline sim-btn-success">成功按钮</button>
+      <button class="sim-btn sim-btn-inline sim-btn-error">错误按钮</button>
+      <button class="sim-btn sim-btn-inline sim-btn-warning">警告按钮</button>
+      <button class="sim-btn sim-btn-inline sim-btn-info">提示按钮</button>
+    </view>
+  </view>  
+</view>

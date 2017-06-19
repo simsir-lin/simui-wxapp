@@ -1,0 +1,3 @@
+<template name="sim-toptip">
+  <view class="sim-toptip {{ simTopTip.show ? 'sim-toptip-show color-' + simTopTip.type : '' }}">{{ simTopTip.text }}</view>
+</template>

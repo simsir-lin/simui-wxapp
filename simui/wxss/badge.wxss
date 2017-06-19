@@ -1,0 +1,28 @@
+.sim-badge {
+  position: relative;
+  display: inline-block;
+}
+.sim-badge-count,.sim-badge-tip {
+  position: absolute;
+  top: -5rpx;
+  right: -10rpx;
+  width: 20rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  text-align: center;
+  font-size: 16rpx;
+  border-radius: 50%;
+  background: #FF4444;
+  color: #fff;  
+  white-space: nowrap;
+  z-index: 10;
+  box-shadow: 0 0 0 1px #fff;  
+}
+.sim-badge-count {
+  font-size: 18rpx;
+  padding: 5rpx;
+  right: -15rpx;
+}
+.sim-badge-content {
+  padding: 15rpx;
+}

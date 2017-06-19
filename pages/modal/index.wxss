@@ -1,0 +1,4 @@
+.sim-modal-container {
+  height: 300rpx;
+  padding: 20px;
+}

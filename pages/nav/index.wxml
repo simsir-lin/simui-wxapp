@@ -1,0 +1,69 @@
+<view class="container">
+  <view class="sim-nav sim-nav-col-2">
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-success text-white"></text>
+      <text>图标</text>
+    </view>
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-error text-white"></text>
+      <text>图标</text>
+    </view>
+  </view>
+  <view style="height:30rpx;"></view>
+  <view class="sim-nav sim-nav-col-3">
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-error text-white"></text>
+      <text>图标</text>
+    </view>
+    <view class="sim-nav-item">
+      <image src="../../images/logo.png"></image>
+      <text>图片</text>
+    </view>
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-success text-white"></text>
+      <text>图标</text>
+    </view> 
+  </view>
+  <view style="height:30rpx;"></view>
+  <view class="sim-nav sim-nav-col-4">
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-error text-white"></text>
+      <text>图标</text>
+    </view>    
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-success text-white"></text>
+      <text>图标</text>
+    </view> 
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-info text-white"></text>
+      <text>图标</text>
+    </view>
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-warning text-white"></text>
+      <text>图标</text>
+    </view>
+  </view>
+  <view style="height:30rpx;"></view>
+  <view class="sim-nav sim-nav-col-5">
+    <view class="sim-nav-item">
+      <image src="../../images/logo.png"></image>
+      <text>图片</text>
+    </view>
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-error text-white"></text>
+      <text>图标</text>
+    </view>    
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-success text-white"></text>
+      <text>图标</text>
+    </view> 
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-info text-white"></text>
+      <text>图标</text>
+    </view>
+    <view class="sim-nav-item">
+      <text class="fa fa-wechat color-warning text-white"></text>
+      <text>图标</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,99 @@
+.sim-row {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 24rpx;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  justify-content: space-between;
+  margin: 20rpx 0;
+}
+.sim-row>text,.sim-row>view {
+  color: #333;
+}
+
+.sim-text-deleted {
+  text-decoration: line-through;
+}
+.sim-text-center {
+  text-align: center;
+}
+.sim-text-right {
+  text-align: right;
+}
+
+.sim-arrow-right {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-width: 2px 2px 0 0;
+  border-color: #333;
+  border-style: solid;
+  transform: translateY(-50%) matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+}
+.sim-arrow-bottom {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 8rpx solid transparent;
+  border-right: 8rpx solid transparent;
+  border-top: 10rpx solid #999;
+  transform: translate(0, -50%);
+}
+
+.sim-clearfix {
+  zoom: 1;
+}
+.sim-clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@import "wxss/list.wxss";
+@import "wxss/toptip.wxss";
+@import "wxss/form.wxss";
+@import "wxss/tabs.wxss";
+@import "wxss/modal.wxss";
+@import "wxss/badge.wxss";
+@import "wxss/button.wxss";
+@import "wxss/panel.wxss";
+@import "wxss/label.wxss";
+@import "wxss/nav.wxss";
+@import "wxss/font-awesome.wxss";
+@import "wxss/color.wxss";
+
+.fa {
+  margin: 0 8rpx 0 5rpx;
+}
+
+view, text, navigator, input, button {
+  font-size: 28rpx;
+}
+
+.text-h1 {
+  font-size: 52rpx;
+}
+.text-h2 {
+  font-size: 48rpx;
+}
+.text-h3 {
+  font-size: 44rpx;
+}
+.text-h4 {
+  font-size: 40rpx;
+}
+.text-h5 {
+  font-size: 36rpx;
+}
+.text-h6 {
+  font-size: 32rpx;
+}
+.text-small {
+  font-size: 12px;
+}
