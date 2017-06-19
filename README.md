@@ -1,10 +1,6 @@
 # simui-wxapp
 SIMUI-高颜值的小程序UI库
-<!-- ![SIMUI-高颜值的小程序UI库](http://olf3xgrra.bkt.clouddn.com/simui.jpg "SIMUI") -->
-
-<img src="http://olf3xgrra.bkt.clouddn.com/simui.jpg" style="width:33%;" />
-<img src="http://olf3xgrra.bkt.clouddn.com/simui2.jpg" style="width:33%;" />
-<img src="http://olf3xgrra.bkt.clouddn.com/simui3.jpg" style="width:33px;" />
+![SIMUI-高颜值的小程序UI库](http://olf3xgrra.bkt.clouddn.com/simui.jpg "SIMUI")
 
 ### 下载
 ``` bash
@@ -28,3 +24,5 @@ git clone https://github.com/simsir-lin/simui-wxapp.git
 
 ### 贡献
 如果你有好的意见或建议，欢迎给我提 [issue] 或 [PR]，让 [SIMUI-Wxapp] 更好
+
+![SIMUI-高颜值的小程序UI库](http://olf3xgrra.bkt.clouddn.com/simui-preview.jpg "SIMUI")
