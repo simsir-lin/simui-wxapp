@@ -4,7 +4,7 @@ SIMUI-高颜值的小程序UI库
 
 <img src="http://olf3xgrra.bkt.clouddn.com/simui.jpg" style="width:33%;" />
 <img src="http://olf3xgrra.bkt.clouddn.com/simui2.jpg" style="width:33%;" />
-<img src="http://olf3xgrra.bkt.clouddn.com/simui3.jpg" style="width:33%;" />
+<img src="http://olf3xgrra.bkt.clouddn.com/simui3.jpg" style="width:33px;" />
 
 ### 下载
 ``` bash
