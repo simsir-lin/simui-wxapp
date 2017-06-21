@@ -1,6 +1,6 @@
 # simui-wxapp
 SIMUI-高颜值的小程序UI库
-![SIMUI-高颜值的小程序UI库](http://olf3xgrra.bkt.clouddn.com/simui-preview.jpg "SIMUI")
+![SIMUI-高颜值的小程序UI库](http://olf3xgrra.bkt.clouddn.com/simui-preview-img.jpg "SIMUI")
 
 ### 下载
 ``` bash
