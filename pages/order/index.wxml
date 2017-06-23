@@ -1,0 +1,25 @@
+<view class="container">
+  <view style="height:10px;"></view>
+  <view class="sim-order">
+    <view class="sim-order-header">
+      <text>9872634872</text>
+      <text>已发货</text>
+    </view>
+    <view class="sim-order-list">
+      <view>
+        <image src="../../images/logo.png"></image>
+        <view>
+          <text>这是一个很长很长很长很长很长很长很长的标题</text>
+          <text class="text-error">¥23</text>
+        </view>
+      </view>
+    </view>
+    <view class="sim-order-sum">
+      总价：¥367
+    </view>
+    <view class="sim-order-footer">
+      <button class="sim-btn-inline">取消</button>
+      <button class="sim-btn-inline">支付</button>
+    </view>
+  </view>
+</view>

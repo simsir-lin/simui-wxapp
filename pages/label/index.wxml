@@ -2,10 +2,10 @@
   <view class="sim-panel">
     <view class="sim-panel-content">
       <label class="sim-label">默认标签</label>
-      <label class="sim-label color-success">成功标签</label>
-      <label class="sim-label color-error">错误标签</label>
-      <label class="sim-label color-warning">警告标签</label>
-      <label class="sim-label color-info">提示标签</label>
+      <label class="sim-label color-success">成功</label>
+      <label class="sim-label color-error">错误</label>
+      <label class="sim-label color-warning">警告</label>
+      <label class="sim-label color-info">提示</label>
     </view>    
   </view>
 </view>

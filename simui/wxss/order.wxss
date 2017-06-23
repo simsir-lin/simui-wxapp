@@ -1,0 +1,43 @@
+.sim-order {
+  background: #fff;
+}
+.sim-order-header {
+  display: flex;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #f7f7f7;
+  justify-content: space-between;
+  padding: 20rpx 30rpx;
+  align-items: center;
+}
+.sim-order-list>view {
+  display: flex;
+  padding: 25rpx;
+  padding-top: 0;
+}
+.sim-order-list>view:first-child {
+  padding-top: 25rpx;
+}
+.sim-order-list>view image {
+  width: 140rpx;
+  height: 140rpx;
+}
+.sim-order-list>view view {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.sim-order-list>view view>text {
+  margin-bottom: 10rpx;
+}
+.sim-order-sum {
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  padding: 20rpx 30rpx;
+  text-align: right;
+  color: #c83a35;
+}
+.sim-order-footer {
+  text-align: right;
+  border-bottom: 1px solid #eee;
+  padding: 15rpx 30rpx;
+}

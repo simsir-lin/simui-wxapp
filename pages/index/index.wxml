@@ -31,6 +31,10 @@
       <text>列表</text>
       <text class="fa fa-angle-right"></text>
     </view>
+    <view class="sim-list-item" bindtap="navigateTo" data-url="../order/index">
+      <text>订单列表</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
   </view>
   <view class="sim-row" bindtap="navigateTo" data-url="../form/index">
     <text>表单</text>

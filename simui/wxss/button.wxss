@@ -1,10 +1,13 @@
 .sim-btn {
   margin: 20rpx;
 }
-
 .sim-btn-inline {
   display: inline-block;
-  line-height: 70rpx;
+  line-height: 60rpx;
+}
+
+.sim-btn-inline+.sim-btn-inline {
+  margin-left: 20rpx;
 }
 
 .sim-btn-success {

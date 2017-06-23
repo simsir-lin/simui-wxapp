@@ -11,7 +11,8 @@
     "pages/label/index",
     "pages/modal/index",
     "pages/badge/index",
-    "pages/nav/index"
+    "pages/nav/index",
+    "pages/order/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

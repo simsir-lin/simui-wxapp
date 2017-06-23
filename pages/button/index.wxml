@@ -12,11 +12,11 @@
   <view class="sim-panel">
     <view class="sim-panel-title">行级按钮</view>
     <view class="sim-panel-content">
-      <button class="sim-btn sim-btn-inline">默认按钮</button>
-      <button class="sim-btn sim-btn-inline sim-btn-success">成功按钮</button>
-      <button class="sim-btn sim-btn-inline sim-btn-error">错误按钮</button>
-      <button class="sim-btn sim-btn-inline sim-btn-warning">警告按钮</button>
-      <button class="sim-btn sim-btn-inline sim-btn-info">提示按钮</button>
+      <button class="sim-btn-inline">默认</button>
+      <button class="sim-btn-inline sim-btn-success">成功</button>
+      <button class="sim-btn-inline sim-btn-error">错误</button>
+      <button class="sim-btn-inline sim-btn-warning">警告</button>
+      <button class="sim-btn-inline sim-btn-info">提示</button>
     </view>
   </view>  
 </view>

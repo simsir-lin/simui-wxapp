@@ -1,9 +1,12 @@
 .sim-label {
   position: relative;
   display: inline-block;
-  margin: 5px 10rpx;
+  margin: 5px 0;
   background-color: #999;
   color: #fff;
   padding: 8rpx 12rpx;
   border-radius: 8rpx;  
+}
+.sim-label+.sim-label {
+  margin-left: 10rpx;
 }

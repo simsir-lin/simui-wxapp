@@ -65,6 +65,7 @@
 @import "wxss/panel.wxss";
 @import "wxss/label.wxss";
 @import "wxss/nav.wxss";
+@import "wxss/order.wxss";
 @import "wxss/font-awesome.wxss";
 @import "wxss/color.wxss";
 
