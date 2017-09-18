@@ -1,3 +1,9 @@
+<!--
+ * Author: simsir-lin 
+ * Github: https://github.com/simsir-lin
+ * Email: 15986907592@163.com
+-->
+
 <template name="sim-toptip">
   <view class="sim-toptip {{ simTopTip.show ? 'sim-toptip-show color-' + simTopTip.type : '' }}">{{ simTopTip.text }}</view>
 </template>
