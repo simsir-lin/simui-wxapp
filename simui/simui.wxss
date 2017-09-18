@@ -66,6 +66,7 @@
 @import "wxss/label.wxss";
 @import "wxss/nav.wxss";
 @import "wxss/order.wxss";
+@import "wxss/shoppingcart.wxss";
 @import "wxss/font-awesome.wxss";
 @import "wxss/color.wxss";
 
@@ -77,24 +78,24 @@ view, text, navigator, input, button {
   font-size: 28rpx;
 }
 
-.text-h1 {
+.sim-text-h1 {
   font-size: 52rpx;
 }
-.text-h2 {
+.sim-text-h2 {
   font-size: 48rpx;
 }
-.text-h3 {
+.sim-text-h3 {
   font-size: 44rpx;
 }
-.text-h4 {
+.sim-text-h4 {
   font-size: 40rpx;
 }
-.text-h5 {
+.sim-text-h5 {
   font-size: 36rpx;
 }
-.text-h6 {
+.sim-text-h6 {
   font-size: 32rpx;
 }
-.text-small {
+.sim-text-small {
   font-size: 12px;
 }

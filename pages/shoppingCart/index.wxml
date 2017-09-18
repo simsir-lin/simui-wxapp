@@ -1,0 +1,27 @@
+<view class="container">
+  <view class='sim-cart-list'>
+    <view class='sim-cart-item' wx:for="{{[1,2,3,4,5]}}" wx:key="*this">
+      <view class='sim-cart-checkbox'>
+        <icon type="circle" size="20" color="#e82b31"></icon>
+      </view>
+      <view class='sim-cart-product'>
+        <image src='../../images/logo.png' mode="widthFix"></image>
+        <view>
+          <view>商品标题商品标题商品标题商品标题商品标题</view>
+          <view>
+            <view class='sim-price'>499</view>
+            <view>
+              <button>-</button>
+              <button>2</button>
+              <button>+</button>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="sim-cart-nav">
+      <view>总金额：<text class="sim-price">45</text></view>
+      <view class="color-error">结算</view>
+    </view>
+  </view>
+</view>

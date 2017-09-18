@@ -1,4 +1,4 @@
-<import src="../../simui/template/toptip.wxml" />
+<import src="../../simui/simui.wxml" />
 <view class="container">
   <view style="height:50rpx"></view>
   <view class="sim-form">
