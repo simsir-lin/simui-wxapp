@@ -5,3 +5,4 @@
  */
 
 exports.TopTip = require('js/toptip');
+exports.Collapse = require('js/collapse');

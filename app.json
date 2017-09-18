@@ -1,5 +1,5 @@
 {
-  "pages": [        
+  "pages": [            
     "pages/index/index",
     "pages/button/index",
     "pages/row/index",
@@ -13,6 +13,7 @@
     "pages/badge/index",
     "pages/nav/index",
     "pages/shoppingCart/index",
+    "pages/collapse/index",
     "pages/order/index"    
   ],
   "window": {

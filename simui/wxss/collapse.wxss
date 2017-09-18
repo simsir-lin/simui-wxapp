@@ -1,0 +1,26 @@
+.sim-collapse .sim-collapse-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;  
+}
+.sim-collapse .sim-collapse-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  height: 0px;
+  z-index: 11;
+  display: none;  
+}
+.sim-collapse-show .sim-collapse-mask,.sim-collapse-show .sim-collapse-container{
+  display: block;
+  padding: 10rpx 0; 
+}
+.sim-collapse .sim-collapse-container view {
+  padding-left: 30rpx;
+}

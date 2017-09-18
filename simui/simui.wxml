@@ -7,3 +7,12 @@
 <template name="sim-toptip">
   <view class="sim-toptip {{ simTopTip.show ? 'sim-toptip-show color-' + simTopTip.type : '' }}">{{ simTopTip.text }}</view>
 </template>
+
+<template name="sim-collapse">
+  <view class="sim-collapse {{ simCollapse.visible ? 'sim-collapse-show':'' }}" id="sim-collapse">    
+    <view class="sim-collapse-mask" style="top:{{simCollapse.top}}" bindtap="closeSimCollapse"></view>
+    <scroll-view class="sim-collapse-container" scroll-y style="top:{{simCollapse.top}};height: {{simCollapse.height}};" enable-back-to-top="false">
+      <view wx:for="{{simCollapse.menu}}" style="height:{{simCollapse.menuHeight}}px;line-height:{{simCollapse.menuHeight}}px;" wx:key="title" bindtap="handleSimCollapseMenuTap" data-index="{{index}}">{{ item.title }}</view>
+  </scroll-view>
+  </view>
+</template>

@@ -1,0 +1,5 @@
+.menu {
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+}

@@ -1,30 +1,35 @@
 /*主色: #2B618E*/
-/*default: #999999*/
+/*default: #888888*/
 /*succss: #25BC1E*/
 /*error: #F36063*/
 /*warning: #F0AD4E*/
 /*info: #33AEFD*/
 
 .color-default {
-  background-color: #999999 !important;
+  background-color: #888888 !important;
+  color: #fff !important;
 }
 .color-success {
   background-color: #25BC1E !important;
+  color: #fff !important;
 }
 .color-error {
   background-color: #F36063 !important;
+  color: #fff !important;
 }
 .color-warning {
   background-color: #F0AD4E !important;
+  color: #fff !important;
 }
 .color-info {
   background-color: #33AEFD !important;
+  color: #fff !important;
 }
 .text-white {
   color: #fff !important;
 }
-.text-gray {
-  color: #999999 !important;
+.text-gray,.text-default {
+  color: #888888 !important;
 }
 .text-success {
   color: #25BC1E !important;

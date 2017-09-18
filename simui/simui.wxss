@@ -73,6 +73,7 @@
 @import "wxss/nav.wxss";
 @import "wxss/order.wxss";
 @import "wxss/shoppingcart.wxss";
+@import "wxss/collapse.wxss";
 @import "wxss/font-awesome.wxss";
 @import "wxss/color.wxss";
 

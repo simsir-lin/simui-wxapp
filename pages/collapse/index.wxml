@@ -1,0 +1,14 @@
+<import src="../../simui/simui.wxml" />
+<view>  
+  <view bindtap="showCollapseBySetTop" class='menu color-info' id="menu">
+    <text>点击出现折叠框(设置top值)</text>
+  </view>
+  <view style="height:20rpx;"></view>
+  <view bindtap="showCollapse" class='menu color-info' id="menu">
+    <text>点击出现折叠框(没有设置top值)</text>
+  </view>  
+  <template is="sim-collapse" data="{{ simCollapse }}"></template>
+  <view style="margin:30rpx;">
+    <label class="text-default">注：如果没有设置top值，折叠框默认出现的位置是折叠框模版在文档流中的位置</label>
+  </view>
+</view>
