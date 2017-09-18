@@ -43,11 +43,3 @@
 .text-info {
   color: #33AEFD !important;
 }
-
-.sim-price {
-  color: #F36063;
-}
-.sim-price::before{
-  content: '¥';
-  margin-right: 5rpx;
-}

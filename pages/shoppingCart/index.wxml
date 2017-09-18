@@ -9,7 +9,7 @@
         <view>
           <view>商品标题商品标题商品标题商品标题商品标题</view>
           <view>
-            <view class='sim-price'>499</view>
+            <view class='text-error'>499</view>
             <view>
               <button>-</button>
               <button>2</button>
@@ -20,7 +20,7 @@
       </view>
     </view>
     <view class="sim-cart-nav">
-      <view>总金额：<text class="sim-price">45</text></view>
+      <view>总金额：<text class="text-error">45</text></view>
       <view class="color-error">结算</view>
     </view>
   </view>
