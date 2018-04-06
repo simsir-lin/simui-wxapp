@@ -24,3 +24,15 @@ git clone https://github.com/simsir-lin/simui-wxapp.git
 
 ### 贡献
 如果你有好的意见或建议，欢迎给我提issue，让SIMUI-Wxapp更好!
+
+### TODO
+* 购物车模版去除checkbox的布局
+* 订单列表去除头部的上边框不见了
+* 地址模版
+* line btn，line label
+* form textarea
+* text-small rpx
+* 购物车 删除50  添加规格的显示
+* 订单列表没有底部边框，没有头部时的顶部边框,sim-order-sum 不要border-bottom
+* 订单列表没有底部按键栏的时候底部没有边框
+* sim-tabs 添加box-sizing: border-box;
