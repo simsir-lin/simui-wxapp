@@ -16,16 +16,19 @@
   justify-content: space-between;
   margin: 20rpx 0;
 }
-.sim-row>text,.sim-row>view {
+
+.sim-row>text, .sim-row>view {
   color: #333;
 }
 
 .sim-text-deleted {
   text-decoration: line-through;
 }
+
 .sim-text-center {
   text-align: center;
 }
+
 .sim-text-right {
   text-align: right;
 }
@@ -42,6 +45,7 @@
   border-style: solid;
   transform: translateY(-50%) matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
 }
+
 .sim-arrow-bottom {
   display: inline-block;
   width: 0;
@@ -55,12 +59,12 @@
 .sim-clearfix {
   zoom: 1;
 }
+
 .sim-clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
-
 @import "wxss/list.wxss";
 @import "wxss/toptip.wxss";
 @import "wxss/form.wxss";
@@ -88,21 +92,27 @@ view, text, navigator, input, button {
 .sim-text-h1 {
   font-size: 52rpx;
 }
+
 .sim-text-h2 {
   font-size: 48rpx;
 }
+
 .sim-text-h3 {
   font-size: 44rpx;
 }
+
 .sim-text-h4 {
   font-size: 40rpx;
 }
+
 .sim-text-h5 {
   font-size: 36rpx;
 }
+
 .sim-text-h6 {
   font-size: 32rpx;
 }
+
 .sim-text-small {
-  font-size: 12px;
+  font-size: 12rpx;
 }

@@ -7,11 +7,16 @@
     </view>
     <view class="sim-form-group">
       <label>下拉选择</label>
-      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" >
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01">
         <view class="picker">
-          请选择<text class="sim-arrow-bottom"></text>
+          请选择
+          <text class="sim-arrow-bottom"></text>
         </view>
       </picker>
+    </view>
+    <view class="sim-form-textarea">
+      <label>多行输入框</label>
+      <textarea></textarea>
     </view>
     <view class="sim-form-switch">
       <label>切换开关</label>
@@ -21,7 +26,7 @@
       <label>多选框</label>
       <checkbox-group>
         <label class="checkbox" wx:for="{{items}}">
-          <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+          <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
         </label>
       </checkbox-group>
     </view>
@@ -29,10 +34,10 @@
       <label>单选框</label>
       <radio-group class="radio-group">
         <label class="radio" wx:for="{{items}}">
-          <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
         </label>
       </radio-group>
-    </view>    
+    </view>
   </view>
   <view>
     <button class="sim-btn sim-btn-success">提交</button>

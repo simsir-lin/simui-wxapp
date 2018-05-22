@@ -7,17 +7,20 @@
   flex-wrap: nowrap;
   background: #fff;
 }
+
 .sim-cart-item:first-child {
   border-top: 1px solid #eee;
 }
+
 .sim-cart-item .sim-cart-checkbox {
   height: 180rpx;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  width: 40px;
+  padding: 0 15rpx;
+  padding-right: 0;
 }
+
 .sim-cart-item .sim-cart-product {
   height: 180rpx;
   width: 100%;
@@ -26,10 +29,13 @@
   display: flex;
   flex-wrap: nowrap;
 }
-.sim-cart-item .sim-cart-product image{
+
+.sim-cart-item .sim-cart-product image {
   width: 180rpx;
+  margin-left: 20rpx;
 }
-.sim-cart-item .sim-cart-product>view{
+
+.sim-cart-item .sim-cart-product>view {
   width: 100%;
   box-sizing: border-box;
   padding-left: 20rpx;
@@ -37,15 +43,18 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .sim-cart-item .sim-cart-product>view text {
   display: block;
 }
+
 .sim-cart-item .sim-cart-product>view view {
   display: flex;
   height: 50rpx;
   justify-content: space-between;
   align-items: center;
 }
+
 .sim-cart-item .sim-cart-product>view view button {
   height: 50rpx;
   line-height: 50rpx;
@@ -76,6 +85,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .sim-cart-nav view:last-child {
   height: 50px;
   color: #fff;

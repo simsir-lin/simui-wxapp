@@ -7,6 +7,7 @@
       <button class="sim-btn sim-btn-error">错误按钮</button>
       <button class="sim-btn sim-btn-warning">警告按钮</button>
       <button class="sim-btn sim-btn-info">提示按钮</button>
+      <button class="sim-btn sim-btn-line">边框按钮</button>
     </view>
   </view>  
   <view class="sim-panel">
