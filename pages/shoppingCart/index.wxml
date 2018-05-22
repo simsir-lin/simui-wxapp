@@ -1,6 +1,6 @@
 <view class="container">
   <view class='sim-cart-list'>
-    <view class='sim-cart-item' wx:for="{{[1,2,3,4,5]}}" wx:key="*this">
+    <view class='sim-cart-item' wx:for="{{[1,2,3,4,5,5,5,5,5]}}" wx:key="*this">
       <view class='sim-cart-checkbox'>
         <icon type="circle" size="20" color="#e82b31"></icon>
       </view>
@@ -20,7 +20,9 @@
       </view>
     </view>
     <view class="sim-cart-nav">
-      <view>总金额：<text class="text-error">45</text></view>
+      <view>总金额：
+        <text class="text-error">45</text>
+      </view>
       <view class="color-error">结算</view>
     </view>
   </view>
